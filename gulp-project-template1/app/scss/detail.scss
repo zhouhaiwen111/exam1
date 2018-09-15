@@ -1,0 +1,117 @@
+*{margin:0;padding: 0;box-sizing: border-box;}
+li{list-style: none;}
+a{text-decoration: none;}
+.head{
+   
+    height: 60px;
+}
+.main{
+    background: #efefef;
+    height: 750px;
+    width: 100%;overflow: hidden;
+}
+.main .left{
+    width: 70px;
+    height: 210px;
+   
+    float: left;
+    margin-top:295px;
+    margin-left: 25px;
+}
+.main .left ul li img{
+    width: 70px;
+    height: 70px;
+}
+.main .center{
+    width: 570px;
+    height: 560px;
+     
+     float: left;
+     margin-top: 120px;
+     margin-left: 50px;
+    
+}
+.main .center img{
+    width: 500px;
+    height: 500px;
+    margin-left: 30px;
+    margin-top:20px;
+    
+    
+}
+.main .center ol li{
+    display: none;
+}
+.main .center ol li.show{
+    display: block;
+}
+
+.main .right{
+    width: 378px;
+    height: 352px;
+    float: left;
+    margin-left: 770px;
+    margin-top: -521px;
+   
+}
+.main .right h1{
+    font-size: 20px;
+    font-weight: normal;
+}
+.main .right span{
+    font-size: 26px;
+    display: block;
+    width:378px;
+    border-bottom: 1px solid #CCCCCC;
+    line-height: 50px;
+    margin-top:30px;
+    
+}
+.main .right .color h3{
+    font-size: 14px;
+     font-weight: normal;
+     margin-bottom: 25px;
+     margin-top:43px;
+}
+.main .right .color img{
+    border-radius: 50%;
+    
+}
+.main .right button{
+    width: 205px;
+    height: 60px;
+    background: #eb0028;
+    color: white;
+    border-style: none;
+    margin-top:50px;
+}
+.title{
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+}
+.title .word{
+   margin-top: 30px;
+   margin-left: 555px;
+   
+}
+.title .word span{
+    padding: 0 50px;
+    font-size: 13px;
+}
+.title .word span a{
+    color: #999999;
+}
+.bottom{
+    height: 373px;
+    width: 100%; 
+}
+.bottom .box table {
+   margin-left: 500px;
+   margin-top: 100px;
+   color: #999999;   
+}
+.footer{
+    height: 100px;
+   
+}

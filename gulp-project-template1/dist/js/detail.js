@@ -1,0 +1,1 @@
+"use strict";require(["config"],function(){require(["detail"],function(e){console.log(1),e.change()})});
